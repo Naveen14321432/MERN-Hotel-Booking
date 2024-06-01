@@ -11,13 +11,13 @@ Before you begin, ensure you have Node.js installed on your system.
 Start by cloning the repository to your local machine:
 
 ```bash
-git clone https://github.com/Naveen14321432/MERN-Hotel-Booking.git
+git clone https://github.com/chrisblakely01/mern-booking-app.git
 cd mern-booking-app
 ```
 
 ## Backend Configuration
 
-1. **Environment Files**: Navigate to the `backend` folder and create two files: `.env`. Add the following contents to both files:
+1. **Environment Files**: Navigate to the `backend` folder and create a file: `.env`. Add the following contents to the file:
 
     ```plaintext
     MONGODB_CONNECTION_STRING=
@@ -37,17 +37,17 @@ cd mern-booking-app
 2. **MongoDB Setup**: 
     - Sign up for an account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
     - Create a new cluster and follow the instructions to set up a new database.
-    - Once set up, obtain your MongoDB connection string and add it to the `MONGODB_CONNECTION_STRING` variable in your `.env` files.
-
+    - Once set up, obtain your MongoDB connection string and add it to the `MONGODB_CONNECTION_STRING` variable in your `.env` file.
+      
 3. **Cloudinary Setup**:
     - Create an account at [Cloudinary](https://cloudinary.com/).
     - Navigate to your dashboard to find your cloud name, API key, and API secret.
-    - Add these details to the respective `CLOUDINARY_*` variables in your `.env` files.
+    - Add these details to the respective `CLOUDINARY_*` variables in your `.env` file.
 
 4. **Stripe Setup**:
     - Sign up for a Stripe account at [Stripe](https://stripe.com/).
     - Find your API keys in the Stripe dashboard.
-    - Add your Stripe API key to the `STRIPE_API_KEY` variable in your `.env` files.
+    - Add your Stripe API key to the `STRIPE_API_KEY` variable in your `.env` file.
   
 5. **JWT_SECRET_KEY**:
     - This just needs to be any long, random string. You can google "secret key generator".
