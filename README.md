@@ -1,10 +1,6 @@
-# Setting Up the MERN Booking App
-
-This guide will walk you through the process of setting up the MERN Booking App on your local machine.
-
 ## Prerequisites
 
-Before you begin, ensure you have Node.js installed on your system.
+- Node js
 
 ## Cloning the Repository
 
